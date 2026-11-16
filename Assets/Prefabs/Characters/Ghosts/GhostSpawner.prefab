@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2691588043536302885
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2780039336109878044}
+  - component: {fileID: 8382615846448205751}
+  m_Layer: 0
+  m_Name: GhostSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2780039336109878044
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2691588043536302885}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8382615846448205751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2691588043536302885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 633bdac0abb734c44bf7f6faee41d09b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GhostSpawner
+  ghostPrefab: {fileID: 7694241918077322, guid: c14a7c8fa5349ca4fa19e86df271dfe1, type: 3}
+  desiredCount: 15
+  respawnDelay: 10
+  GhostCounter: {fileID: 0}
+  patrolPaths:
+  - points:
+    - {x: -3.847969e-32, y: 5.62e-43, z: -2.1834927e+24}
+  - points:
+    - {x: 3, y: -0.5, z: 19}
+    - {x: 5, y: -0.5, z: 25}
+    - {x: 15, y: -0.5, z: 20}
+  - points:
+    - {x: 25, y: -0.5, z: 18}
+    - {x: 21, y: -0.5, z: 23}
+    - {x: 18, y: -0.5, z: 19}
+  - points:
+    - {x: 15, y: -0.5, z: 40}
+    - {x: 20, y: -0.5, z: 35}
+  - points:
+    - {x: 3, y: -0.5, z: 36}
+    - {x: 9, y: -0.5, z: 35}
+    - {x: 7, y: -0.5, z: 39}
+  - points:
+    - {x: -9, y: -0.5, z: 36}
+    - {x: -6, y: -0.5, z: 39}
+    - {x: -2, y: -0.5, z: 35}
+  - points:
+    - {x: -8, y: -0.5, z: 30}
+    - {x: -2, y: -0.5, z: 35}
+  - points:
+    - {x: -11, y: -0.5, z: 16}
+    - {x: -7, y: -0.5, z: 25}
+  - points:
+    - {x: -11, y: -0.5, z: 11}
+    - {x: -6, y: -0.5, z: 13}
+  - points:
+    - {x: -14, y: -0.5, z: 4}
+    - {x: -8, y: -0.5, z: 7}
+  - points:
+    - {x: -13, y: -0.5, z: -4}
+    - {x: -11, y: -0.5, z: 1}
+    - {x: -6, y: -0.5, z: -2}
+  - points:
+    - {x: 2, y: -0.5, z: -1}
+    - {x: 8, y: -0.5, z: 2}
+    - {x: 3, y: -0.5, z: 7}
+  - points:
+    - {x: 15, y: -0.5, z: 0}
+    - {x: 19, y: -0.5, z: 3}
+    - {x: 22, y: -0.5, z: -2}
+  - points:
+    - {x: 19, y: -0.5, z: 12}
+    - {x: 22, y: -0.5, z: 13}
+    - {x: 25, y: -0.5, z: 9}
+  - points:
+    - {x: 31, y: -0.5, z: -16}
+    - {x: 38, y: -0.5, z: -13}
+    - {x: 35, y: -0.5, z: -5}
+  - points:
+    - {x: 37, y: -0.5, z: 12}
+    - {x: 40, y: -0.5, z: 8}
+    - {x: 44, y: -0.5, z: 12}
+  - points:
+    - {x: 37, y: -0.5, z: 24}
+    - {x: 44, y: -0.5, z: 21}
+    - {x: 38, y: -0.5, z: 17}
+  - points:
+    - {x: 27, y: -0.5, z: 38}
+    - {x: 34, y: -0.5, z: 36}
+    - {x: 40, y: -0.5, z: 39}
+  - points:
+    - {x: 34, y: -0.5, z: -6}
+    - {x: 36, y: -0.5, z: -10}
+    - {x: 32, y: -0.5, z: -10}
